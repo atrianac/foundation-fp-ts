@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "build-ts": "tsc",
+    "watch-ts": "tsc -w",
+    "lint": "tsc --noEmit && eslint \"**/*.{js,ts}\" --quiet --fix",
+    "test": "jest --forceExit --coverage --verbose"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^2.29.0",
+    "eslint": "^6.8.0",
+    "fast-check": "^1.24.1",
+    "jest": "^25.4.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "fp-ts": "^2.5.3",
+    "fp-ts-laws": "^0.2.1",
+    "ts-jest": "^25.4.0"
+  }
+}
